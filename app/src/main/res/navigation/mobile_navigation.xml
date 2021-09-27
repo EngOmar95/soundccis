@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.CS.sound_ccis.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/about_college"
+        android:name="com.CS.sound_ccis.About_collegeFragment"
+        android:label="@string/college"
+        tools:layout="@layout/about_college" />
+
+    <fragment
+        android:id="@+id/out"
+        android:name="com.CS.sound_ccis.out"
+        android:label="خروج"
+        tools:layout="@layout/fragment_out" />
+    <fragment
+        android:id="@+id/Mang_feedback"
+        android:name="com.CS.sound_ccis.mang_Feedback"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_mang__feedback" />
+
+
+    <fragment
+        android:id="@+id/Mang_info"
+        android:name="com.CS.sound_ccis.Desplay_QuestionsAndAnswer"
+        android:label="@string/mang_info"
+        tools:layout="@layout/desplay_questions_and_answer" >
+
+    </fragment>
+</navigation>

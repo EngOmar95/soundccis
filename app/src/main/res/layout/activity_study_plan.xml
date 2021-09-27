@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.CS.sound_ccis.study_plan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/green"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:text="@string/Study_plan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title" />
+        <TextView
+            android:id="@+id/edit_1"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/edit" />
+
+        <TextView
+            android:id="@+id/done_1"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/done" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/CS"
+                    android:textColor="@color/green"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/CS1"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/plan_CS_new"
+
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:background="@drawable/display_question"
+
+                    android:textColor="@color/red"
+
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/plan_CS_link_t"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoLink="all|web|map|email"
+                    android:background="@drawable/display_question"
+                    android:enabled="false"
+                    android:linksClickable="false"
+                    android:textColor="@color/red"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/plan_CS_link"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:background="@drawable/display_question"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/CS2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/plan_CS_old"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/display_question"
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+                <EditText
+
+                    android:id="@+id/plan_CS_old_link_t"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/red"
+                    android:visibility="gone"
+                    android:enabled="false"
+                    android:autoLink="all"
+                    android:background="@drawable/display_question"
+                    android:linksClickable="false"
+
+                   
+                    android:textColorLink="@android:color/holo_red_dark"
+
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/plan_CS_old_link"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/display_question"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/IT"
+                    android:textColor="@color/green"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/IT1"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/plan_IT_new"
+
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/display_question"
+                    android:textColor="@color/red"
+
+                    android:textSize="18sp" />
+
+                <TextView
+
+                    android:id="@+id/plan_IT_new_link_t"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoLink="all"
+                    android:enabled="false"
+                    android:background="@drawable/display_question"
+                    android:linksClickable="false"
+                    android:visibility="gone"
+                    android:textColor="@color/red"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/plan_IT_new_link"
+                    android:visibility="gone"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/display_question"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/IT2"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/plan_IT_old"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:background="@drawable/display_question"
+
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/plan_IT_old_link_t"
+                    android:visibility="gone"
+                    android:textColor="@color/red"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:enabled="false"
+                    android:autoLink="all"
+                    android:background="@drawable/display_question"
+                    android:linksClickable="false"
+
+
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/plan_IT_old_link"
+                           android:visibility="gone"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/display_question"
+
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/IS"
+                    android:textColor="@color/green"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/IS1"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/plan_IS_new"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/display_question"
+
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/plan_IS_new_link_t"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoLink="all"
+                    android:enabled="false"
+                    android:background="@drawable/display_question"
+                    android:linksClickable="false"
+                    android:visibility="gone"
+                    android:textColor="@color/red"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/plan_IS_new_link"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/display_question"
+                    android:visibility="gone"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/IS2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/plan_IS_old"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/display_question"
+
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/plan_IS_old_link_t"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="all"
+                    android:enabled="false"
+                    android:background="@drawable/display_question"
+                    android:linksClickable="false"
+                    android:visibility="gone"
+                    android:textColor="@color/red"
+                    android:textColorLink="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/plan_IS_old_link"
+                    style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/display_question"
+                    android:visibility="gone"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

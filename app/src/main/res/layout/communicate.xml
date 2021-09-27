@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.CS.sound_ccis.Communicate"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/green"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:text="@string/Commenication"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:enabled="true"
+
+            android:gravity="center"
+            android:hint="@string/Full_Name"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding" />
+
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding"
+            android:text="@string/help" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding"
+            android:text="@string/Email_app" />
+
+        <EditText
+            android:id="@+id/Body"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:gravity="center|top"
+            android:hint="@string/Body_Email"
+            android:inputType="textMultiLine"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/butten"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/Send"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>
+

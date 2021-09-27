@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="ColorBase">#92E0E1</color>
+    <color name="color_My_Message">#FFE0C0</color>
+    <color name="color_bot_Message">#92e1bb</color>
+    <color name="b2">#92b9e1</color>
+    <color name="white">#ffffff</color>
+    <color name="b4">#93e0e1</color>
+    <color name="green"> #38A7B2</color>
+    <color name="red"> #FF0000</color>
+
+
+</resources>

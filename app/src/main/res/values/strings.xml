@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Sound Ccis</string>
+    <string name="Invalid_FristAndlast_Name">الحقل مطلوب</string>
+    <string name="password_Strong">"كلمة السر يجب ان تحتوي  على حرف كبير عل الاقل وحرف صغير ورقم  ولا تقل عن 8 خانات "</string>
+    <string name="Invalid_Emil">الايميل غير صحيح</string>
+    <string name="Invalid_ConfPassword">كلمة السر غير متطابقه</string>
+
+    <string name="home">الصفحه الرئيسيه</string>
+    <string name="college">اعن الكليه</string>
+    <string name="mang_info">ادارة المعلومات</string>
+
+
+    <string name="talk_us">تحدث معنا</string>
+    <string name="coop">التدريب التعاوني</string>
+    <string name="CS">علوم الحاسب</string>
+    <string name="IT">تقنية المعلومات</string>
+    <string name="IS">نظم المعلومات</string>
+    <string name="forgetPassword">استعادة كلمة المرور</string>
+    <string name="Email">Email</string>
+    <string name="Validation">"تحقق "</string>
+    <string name="logIn">تسجيل الدخول</string>
+    <string name="Admin">Admin</string>
+    <string name="User">User</string>
+    <string name="Forget">Forget your password?</string>
+    <string name="login">دخول</string>
+    <string name="logout">"اتمنى ان أراك مرة اخرى "</string>
+    <string name="welcome_Message">مرحبا ,انا الروبوت نوره ان هنا للاجابه عن اسئلتك .اتمنى منك التسجيل أولا لأتمكن من خدمتك</string>
+    <string name="new_registar">تسجيل جديد</string>
+    <string name="login_registar">تسجيل الدخول</string>
+    <string name="frist_Name">frist Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="registar">تسجيل</string>
+    <string name="Edit_profile">تعديل الملف الشخصي</string>
+    <string name="Save">حفظ</string>
+    <string name="cancellation">إلغاء</string>
+    <string name="Study_plan">الخطه الدراسيه</string>
+    <string name="we_who">من نحن</string>
+    <string name="Commenication">تواصل معنا</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="help">احتاج الى مساعده</string>
+    <string name="Email_app">Abeer@gmail.com</string>
+    <string name="Body_Email">هنا يوجد مشكله ؟ تحتاج مساعده ؟</string>
+    <string name="Send">ارسال</string>
+    <string name="Update">تعديل</string>
+    <string name="Question">Question</string>
+    <string name="Answer">Answer</string>
+    <string name="Keyword">Keyword</string>
+    <string name="Add">اضافه</string>
+    <string name="message_no_keyword">لم افهم قصدك</string>
+    <string name="title_voice">تحدث ألان  ...</string>
+
+    <string name="Feedback">الملاحضات ونعليقات</string>
+    <string name="userName">User Name</string>
+</resources>

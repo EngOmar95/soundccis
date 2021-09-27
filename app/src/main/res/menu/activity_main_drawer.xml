@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_main"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/about_college"
+            android:icon="@drawable/unversity"
+            android:title="@string/college"
+           />
+
+        <item
+            android:id="@+id/Mang_info"
+            android:icon="@drawable/info"
+            android:title="@string/mang_info"
+            />
+        <item
+            android:id="@+id/Mang_feedback"
+            android:icon="@drawable/_feedback_24"
+            android:title="Feedback"
+            />
+      
+
+     
+
+     
+
+        <item
+            android:id="@+id/out"
+            android:icon="@drawable/out"
+            android:title="تسجيل الخروج" />
+    </group>
+</menu>

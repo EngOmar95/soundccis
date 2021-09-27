@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CS.sound_ccis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.CS.sound_ccis.FeedBack"></activity>
+        <activity android:name="com.CS.sound_ccis.Forget_password" />
+        <activity android:name="com.CS.sound_ccis.logout" />
+        <activity android:name="com.CS.sound_ccis.start_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.CS.sound_ccis.chat" />
+        <activity android:name="com.CS.sound_ccis.website" />
+        <activity android:name="com.CS.sound_ccis.coop" />
+        <activity android:name="com.CS.sound_ccis.study_plan" />
+        <activity android:name="com.CS.sound_ccis.LogIn" />
+        <activity android:name="com.CS.sound_ccis.new_regeister" />
+        <activity android:name="com.CS.sound_ccis.MainPage" />
+        <activity android:name="com.CS.sound_ccis.profile" />
+        <activity android:name="com.CS.sound_ccis.Who_We" />
+        <activity android:name="com.CS.sound_ccis.Communicate" />
+        <activity
+            android:name="com.CS.sound_ccis.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

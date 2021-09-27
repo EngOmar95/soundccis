@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089339870553",
+    "firebase_url": "https://soundccis-f8423.firebaseio.com",
+    "project_id": "soundccis-f8423",
+    "storage_bucket": "soundccis-f8423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089339870553:android:b064f03736da3907e99048",
+        "android_client_info": {
+          "package_name": "com.CS.sound_ccis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089339870553-id8ijdl099knqofvoh2acai6f30pbj64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ke-owg744bbDelZFz9PWPn76kRem780"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089339870553-id8ijdl099knqofvoh2acai6f30pbj64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
